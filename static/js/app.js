@@ -10,6 +10,7 @@ d3.json(url).then(function(data) {
 function init() {
 
     // Use D3 to select the dropdown menu
+    // line 25 in index.html
     let dropdownMenu = d3.select("#selDataset");
 
     // Use D3 to get sample names and populate the drop-down selector
